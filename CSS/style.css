@@ -1,0 +1,57 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    background-color: aquamarine;
+}
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ /* star shopping */
+ .shopping {
+    display: flex;
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 20px;
+}
+section.carsShop {
+    padding: 20px;
+    background: white;
+    margin-top: 30px;
+}
+ /* end shopping */
+/* star part 1 */
+div#part1 , div#part2 , div#part3 {
+    display: grid;
+    grid-template-columns: 15% 25% 18% 19% 20%;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 20px;
+}
+.icone1 , .icone2 , .icone3 {
+    display: flex;
+    justify-content: space-around;
+}
+.image1 img , .image2 img , .image3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.nike1 , .nike2 , .nike3 {
+    margin-left: 20px;
+}
+.iteration1 , .iteration2 , .iteration3 {
+    display: flex;
+    gap: 50px;
+}
+.image1 , .image2 , .image3 {
+    height: 100px;
+}
+/* end part 1 */

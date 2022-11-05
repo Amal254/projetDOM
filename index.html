@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+    <body>
+        <div class="container">
+            <section class="carsShop">
+                <div class="shopping">
+                    <p>Shopping Bag Total : </p>
+                    <span id="total">0</span>
+                    <span>$</span>
+                </div>
+            <!-- start part1 -->
+                <div id="part1">
+                    <div class="icone1">
+                        <i class="fa-solid fa-skull" onclick =" remove() " ></i>
+                        <i id="heart" class="fa-solid fa-heart" onclick="heart1()"></i>
+                    </div>  
+                    <div class="image1">
+                        <img src="./images/shose1.png">
+                    </div>
+                    <div class="nike1">
+                        <h1>nike</h1>
+                        <span>pink</span>
+                    </div>
+                    <div class="iteration1">
+                        <span id="btn" onclick="inc()">+</span>
+                        <p id="pqtn1">0</p>
+                        <span id="btn" onclick="dec()">-</span>
+                    </div>
+                    <div class="prix1">
+                        <p id="p1price">0</p>
+                        <span>$</span>
+                    </div>
+                </div>
+            <!-- end part 1 -->
+            <!-- start part2 -->
+                <div id="part2">
+                    <div class="icone2">
+                        <i class="fa-solid fa-skull" onclick =" remove2() "></i>
+                        <i id="heart1" class="fa-solid fa-heart" onclick="heart2()"></i>
+                    </div>  
+                    <div class="image2">
+                        <img src="./images/shose2.png">
+                    </div>
+                    <div class="nike2">
+                        <h1>nike</h1>
+                        <span>blanc</span>
+                    </div>
+                    <div class="iteration2">
+                        <span id="btn" onclick="inc2()">+</span>
+                        <p id="pqtn2">0</p>
+                        <span id="btn" onclick="dec2()">-</span>
+                    </div>
+                    <div class="prix2">
+                        <p id="p2price">0</p>
+                        <span>$</span>
+                    </div>
+                </div>
+            <!-- end part 2-->
+            <!-- start part3 -->
+                <div id="part3">
+                    <div class="icone3">
+                        <i class="fa-solid fa-skull" onclick =" remove3() "></i>
+                        <i id="heart2" class="fa-solid fa-heart" onclick="heart3()"></i>
+                    </div>  
+                    <div class="image3">
+                        <img src="./images/shose3.png">
+                    </div>
+                    <div class="nike1">
+                        <h1>nike</h1>
+                        <span>bleu</span>
+                    </div>
+                    <div class="iteration3">
+                        <span id="btn" onclick="inc3()">+</span>
+                        <span id="pqtn3">0</span>
+                        <span id="btn" onclick="dec3()">-</span>
+                    </div>
+                    <div class="prix3">
+                        <span id="p3price">0</span>
+                        <span>$</span>
+                    </div>
+                </div>
+            <!-- end part 3 -->
+            </section>
+        </div>
+        <script src="./JS/javascript.js"></script>
+    </body>
+</html>
